@@ -28,6 +28,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -45,6 +49,8 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin-left: 7px;
+  margin-top: 10px;
 }
 button:hover {
   border-color: #646cff;
@@ -52,6 +58,11 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
 }
 
 @media (prefers-color-scheme: light) {

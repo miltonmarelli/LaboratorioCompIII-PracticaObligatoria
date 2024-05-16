@@ -1,19 +1,9 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  margin: 0;
-  padding: 0;
+.app {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   flex-direction: column;
-}
-
-.App {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  
-  flex-direction: column;
+  justify-content: center;
+  background-color: #d1d1d1;
+  padding: 50px;
+  border-radius: 20px;
 }
